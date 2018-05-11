@@ -3,7 +3,7 @@
 # install
 yum -y install squid
 yum -y install nano
-yum -y install firewald
+yum -y install firewalld
  
 # process
 systemctl enable squid.service
